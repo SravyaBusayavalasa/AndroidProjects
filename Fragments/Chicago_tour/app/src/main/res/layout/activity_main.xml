@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/RelativeLayout1"
+    android:orientation="vertical"
+    tools:context="com.proj3cs478sravya.chicago_tour.MainActivity">
+
+
+    <TextView
+        android:id="@+id/t_attractions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:text="Choose attractions to explore tourism of Chicago" />
+
+    <TextView
+        android:id="@+id/t_restaurants"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/t_attractions"
+        android:layout_marginTop="57dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:text="Choose restaurants to have a fine dining in Chicago" />
+
+    <Button
+        android:id="@+id/b_attractions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/t_restaurants"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="69dp"
+        android:text="Attractions" />
+
+    <Button
+        android:id="@+id/b_restaurants"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/b_attractions"
+        android:layout_alignBottom="@+id/b_attractions"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Restaurants" />
+</RelativeLayout>

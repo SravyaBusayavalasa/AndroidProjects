@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Chicago_tour</string>
+    <string name="p_label">permission_chicago</string>
+    <string name="p_description">Allow access to Chicago guide</string>
+</resources>

@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Chicago_tour_guide</string>
+    <string-array name="AttractionsTitles">
+        <item>Art Institute of Chicago</item>
+        <item>Millennium Park</item>
+        <item>Magnificent Mile</item>
+        <item>Navy Pier</item>
+        <item>Wrigley Field</item>
+        <item>Shakespeare Theater</item>
+        <item>Willis Tower</item>
+        <item>Museum of Science and Industry</item>
+        <item>Field Museum</item>
+        <item>Lyric Opera of Chicago</item>
+        <item>Oriental Institute Museum</item>
+        <item>Shedd Aquarium</item>
+
+
+
+    </string-array>
+    <string-array name="Websites">
+        <item>http://www.artic.edu/</item>
+        <item>http://www.cityofchicago.org/city/en/depts/dca/supp_info/millennium_park.html</item>
+        <item>http://www.themagnificentmile.com/</item>
+        <item>https://navypier.org/</item>
+        <item>http://chicago.cubs.mlb.com/chc/ballpark/</item>
+        <item>http://www.chicagoshakes.com/</item>
+        <item>http://www.willistower.com/</item>
+        <item>http://www.msichicago.org/</item>
+        <item>http://fieldmuseum.org/</item>
+        <item>http://www.lyricopera.org/</item>
+        <item>http://oi.uchicago.edu/museum-exhibits</item>
+        <item>https://www.sheddaquarium.org/</item>
+
+
+    </string-array>
+
+    <string-array name="RestaurantsTitles">
+        <item>Wild Berry</item>
+        <item>PF Changs</item>
+        <item>Red Lobster</item>
+        <item>Giordanos</item>
+        <item>Papa Johns</item>
+        <item>Bawarchi</item>
+
+
+
+    </string-array>
+
+    <string-array name="RWebsites">
+        <item>http://www.wildberrycafe.com/</item>
+        <item>https://www.pfchangs.com</item>
+        <item>https://www.redlobster.com/</item>
+        <item>https://giordanos.com/</item>
+        <item>https://www.papajohns.com/</item>
+        <item>https://www.bawarchischaumburg.com/</item>
+
+
+    </string-array>
+</resources>

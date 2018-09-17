@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.proj3cs478sravya.chicago_tour">
+<permission android:name="edu.uic.cs478.sp18.project3"
+    android:description="@string/p_description"
+    android:protectionLevel="dangerous"
+    android:label="@string/p_label">
+</permission>
+    <uses-permission android:name="edu.uic.cs478.sp18.project3"></uses-permission>
+    <application
+        android:label="@string/app_name" >
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
