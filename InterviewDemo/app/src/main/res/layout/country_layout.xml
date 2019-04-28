@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.midtronicsinterview.interviewdemo.Country_activity">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:stretchColumns="1,2"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/Header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="match_parent" >
+            <TextView
+                android:text="Capital"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_column="1" />
+
+            <TextView
+                android:id="@+id/Capital"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_gravity="right"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="match_parent" >
+            <TextView
+                android:text="Population"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_column="1" />
+
+            <TextView
+                android:id="@+id/Population"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+
+
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="match_parent" >
+            <TextView
+                android:text="Area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_column="1" />
+
+            <TextView
+                android:id="@+id/Area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_column="2"
+                android:layout_gravity="right"
+
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="Region"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Region"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_gravity="right"
+
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="match_parent" >
+            <TextView
+                android:text="SubRegion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_column="1" />
+
+            <TextView
+                android:id="@+id/SubRegion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+
+                android:layout_gravity="right"
+
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>
+
+
